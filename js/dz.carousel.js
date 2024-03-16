@@ -378,20 +378,20 @@ var IllusCarousel = (function () {
         speed: 1000,
         loop: true,
         parallax: true,
-        slidesPerView: 3,
+        slidesPerView: 4,
         spaceBetween: 15,
         pagination: {
           el: ".swiper-pagination-trading",
         },
         breakpoints: {
           1400: {
-            slidesPerView: 3,
+            slidesPerView: 4,
           },
           1024: {
-            slidesPerView: 2,
+            slidesPerView: 3.5,
           },
           991: {
-            slidesPerView: 2,
+            slidesPerView: 3,
           },
           767: {
             slidesPerView: 1.5,
