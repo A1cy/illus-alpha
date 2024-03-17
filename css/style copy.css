@@ -106,11 +106,11 @@
   --headings-font-weight2: 400;
   --headings-font-weight3: 300;
   --white: var(--title);
-  --light: #fffaf3;
+  --light: #ebf1d9;
 }
 
 /*!
-   * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
+   * Bootstrap  v5.3.0-alphdz- (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
@@ -153,11 +153,11 @@
   --bs-secondary-bg-subtle: #f8f9fa;
   --bs-success-bg-subtle: #ddf3de;
   --bs-info-bg-subtle: #cff4fc;
-  --bs-warning-bg-subtle: #dee2ac;
+  --bs-warning-bg-subtle: #DEE2AC;
   --bs-danger-bg-subtle: #fcd3e0;
   --bs-light-bg-subtle: #fcfcfd;
   --bs-dark-bg-subtle: #ced4da;
-  --bs-primary-border-subtle: #a19fb5;
+  --bs-primary-border-subtle: #dz-9fb5;
   --bs-secondary-border-subtle: #e9ecef;
   --bs-success-border-subtle: #bae7bc;
   --bs-info-border-subtle: #9eeaf9;
@@ -203,7 +203,7 @@
   --bs-link-hover-color: #a30a2e;
   --bs-link-hover-color-rgb: 163, 10, 46;
   --bs-code-color: #d63384;
-  --bs-highlight-bg: #dee2ac;
+  --bs-highlight-bg: #DEE2AC;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #d7d7d7;
@@ -221,7 +221,7 @@
   --bs-emphasis-color: #000;
   --bs-form-control-bg: var(--bs-body-bg);
   --bs-form-control-disabled-bg: var(--bs-secondary-bg);
-  --bs-highlight-bg: #dee2ac;
+  --bs-highlight-bg: #DEE2AC;
   --bs-breakpoint-xs: 0;
   --bs-breakpoint-sm: 576px;
   --bs-breakpoint-md: 768px;
@@ -251,7 +251,7 @@
   --bs-success-text: #98da9b;
   --bs-info-text: #6edff6;
   --bs-warning-text: #ffcb6b;
-  --bs-danger-text: #f77ca1;
+  --bs-danger-text: #f77cdz-;
   --bs-light-text: #f8f9fa;
   --bs-dark-text: #dee2e6;
   --bs-primary-bg-subtle: #04030e;
@@ -261,7 +261,7 @@
   --bs-warning-bg-subtle: #332202;
   --bs-danger-bg-subtle: #300714;
   --bs-light-bg-subtle: #343a40;
-  --bs-dark-bg-subtle: #1a1d20;
+  --bs-dark-bg-subtle: #1dz-d20;
   --bs-primary-border-subtle: #0b0a29;
   --bs-secondary-border-subtle: #495057;
   --bs-success-border-subtle: #327435;
@@ -272,7 +272,7 @@
   --bs-dark-border-subtle: #343a40;
   --bs-heading-color: #fff;
   --bs-link-color: #71708f;
-  --bs-link-hover-color: #a19fb5;
+  --bs-link-hover-color: #dz-9fb5;
   --bs-link-color-rgb: 113, 112, 143;
   --bs-link-hover-color-rgb: 161, 159, 181;
   --bs-code-color: #e685b5;
@@ -6716,11 +6716,11 @@ fieldset:disabled .woocommerce #place_order,
   --bs-btn-border-color: #e79600;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #eba626;
-  --bs-btn-hover-border-color: #e9a11a;
+  --bs-btn-hover-border-color: #e9dz-1a;
   --bs-btn-focus-shadow-rgb: 196, 128, 0;
   --bs-btn-active-color: #000;
   --bs-btn-active-bg: #ecab33;
-  --bs-btn-active-border-color: #e9a11a;
+  --bs-btn-active-border-color: #e9dz-1a;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
   --bs-btn-disabled-bg: #e79600;
@@ -6746,7 +6746,7 @@ fieldset:disabled .woocommerce #place_order,
 
 .btn-light {
   --bs-btn-color: #000;
-  --bs-btn-bg: #ffffff;
+  --bs-btn-bg: #fffaf3;
   --bs-btn-border-color: #fffaf3;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #d9d5cf;
@@ -10710,7 +10710,7 @@ fieldset:disabled .woocommerce #place_order,
 
 .btn-close {
   --bs-btn-close-color: #000;
-  --bs-btn-close-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");
+  --bs-btn-close-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293dz- 1 0 0 1 1.414 0L8 6.586 14.293.293dz- 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293dz- 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293dz- 1 0 0 1-1.414-1.414L6.586 8 .293 1.707dz- 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");
   --bs-btn-close-opacity: 0.5;
   --bs-btn-close-hover-opacity: 0.75;
   --bs-btn-close-focus-shadow: 0 0 0 0rem rgba(204, 13, 57, 0.25);
@@ -17840,7 +17840,7 @@ strong,
   width: 120px;
   height: 120px;
   position: absolute;
-  border: 2px solid var(--rgba-primary-4);
+  border: 2px solid var(--primary);
   opacity: 1;
   border-radius: 50%;
   display: flex;
@@ -18305,7 +18305,7 @@ strong,
   margin-top: 5px;
 }
 
-.p-a10 {
+.p-dz-0 {
   padding: 10px;
 }
 
@@ -18335,7 +18335,7 @@ strong,
   padding-top: 10px;
 }
 
-.m-a10 {
+.m-dz-0 {
   margin: 10px;
 }
 
@@ -18365,7 +18365,7 @@ strong,
   margin-top: 10px;
 }
 
-.p-a15 {
+.p-dz-5 {
   padding: 15px;
 }
 
@@ -18395,7 +18395,7 @@ strong,
   padding-top: 15px;
 }
 
-.m-a15 {
+.m-dz-5 {
   margin: 15px;
 }
 
@@ -19385,7 +19385,7 @@ strong,
   margin-top: 95px;
 }
 
-.p-a100 {
+.p-dz-00 {
   padding: 100px;
 }
 
@@ -19415,7 +19415,7 @@ strong,
   padding-top: 100px;
 }
 
-.m-a100 {
+.m-dz-00 {
   margin: 100px;
 }
 
@@ -40756,7 +40756,7 @@ btn:focus {
   margin-bottom: -100px;
   z-index: 2;
 }
-.dz-info-has.p-a15 {
+.dz-info-has.p-dz-5 {
   padding: 15px;
 }
 .dz-info-has.p-a20 {
@@ -41598,16 +41598,16 @@ btn:focus {
 }
 
 .dz-accordion.gradient-bg .accordion-header .accordion-button {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c42780+9,1a1dbc+100 */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c42780+9,1dz-dbc+100 */
   background: #c42780;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #c42780 9%, #1a1dbc 100%);
+  background: -moz-linear-gradient(left, #c42780 9%, #1dz-dbc 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #c42780 9%, #1a1dbc 100%);
+  background: -webkit-linear-gradient(left, #c42780 9%, #1dz-dbc 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #c42780 9%, #1a1dbc 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c42780', endColorstr='#1a1dbc',GradientType=1 );
+  background: linear-gradient(to right, #c42780 9%, #1dz-dbc 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Operdz-2+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c42780', endColorstr='#1dz-dbc',GradientType=1 );
   /* IE6-9 */
   box-shadow: none;
 }
@@ -45670,7 +45670,7 @@ select {
   background-color: #3b5998;
 }
 .dz-social-icon.style-3 li:nth-child(2) {
-  background-color: #1da1f2;
+  background-color: #1ddz-f2;
 }
 .dz-social-icon.style-3 li:nth-child(3) {
   background-color: #25d366;
@@ -50034,7 +50034,7 @@ video#video-background {
 }
 .about-box.style-1 .dz-media img {
   width: 100%;
-  /* mask-image: url(../images/bg-media.svg); */
+  mask-image: url(../images/bg-media.svg);
   mask-size: auto 100%;
   mask-repeat: no-repeat;
   height: 100%;
@@ -50676,7 +50676,7 @@ video#video-background {
 .about-style4 .about-content {
   border-radius: 30px;
   background: #fff;
-  /* box-shadow: 0px 15px 50px 0px rgba(94, 141, 118, 0.1); */
+  box-shadow: 0px 15px 50px 0px rgba(94, 141, 118, 0.1);
   padding: 40px;
 }
 .about-style4 .about-content .para-text {
@@ -64700,7 +64700,7 @@ pre {
 .wp-block-latest-comments .wp-block-latest-comments__comment-meta time {
   display: block;
   width: 100%;
-  color: #9fa1a4;
+  color: #9fdz-a4;
   font-size: 0.813rem;
   font-weight: 400;
 }
@@ -67031,13 +67031,13 @@ pre {
   height: 50px;
   line-height: 50px;
 }
-.contact-wraper1 .contact-area1.style-1 {
+.contact-wraper1 .contact-aredz-.style-1 {
   position: absolute;
   bottom: -189px;
   right: 15%;
   z-index: 999;
 }
-.contact-wraper1 .contact-area1 .wpcf7-spinner {
+.contact-wraper1 .contact-aredz- .wpcf7-spinner {
   display: none;
 }
 @media only screen and (max-width: 1199px) {
@@ -67058,7 +67058,7 @@ pre {
     height: 100%;
     width: 100%;
   }
-  .contact-wraper1 .contact-area1 {
+  .contact-wraper1 .contact-aredz- {
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -67067,7 +67067,7 @@ pre {
   }
 }
 
-.contact-area1 {
+.contact-aredz- {
   padding: 60px 55px;
   background: var(--secondary);
   max-width: 520px;
@@ -67077,30 +67077,30 @@ pre {
   box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.05);
   border-radius: 30px;
 }
-.contact-area1.style-1 {
+.contact-aredz-.style-1 {
   margin: 0 0 -215px auto;
 }
 @media only screen and (max-width: 991px) {
-  .contact-area1.style-1 {
+  .contact-aredz-.style-1 {
     margin: 0;
   }
 }
-.contact-area1 .form-label {
+.contact-aredz- .form-label {
   color: #fff;
   font-weight: 400;
 }
-.contact-area1 .form-control,
-.contact-area1 .woocommerce #review_form #respond input[type="text"],
-.woocommerce #review_form #respond .contact-area1 input[type="text"],
-.contact-area1 .woocommerce #review_form #respond textarea,
-.woocommerce #review_form #respond .contact-area1 textarea,
-.contact-area1 .woocommerce #review_form #respond input[type="email"],
-.woocommerce #review_form #respond .contact-area1 input[type="email"],
-.contact-area1 .woocommerce-cart-form .table tr td.actions .coupon .input-text,
-.woocommerce-cart-form .table tr td.actions .coupon .contact-area1 .input-text,
-.contact-area1 .woocommerce-cart-form .table tr .quantity input,
-.woocommerce-cart-form .table tr .quantity .contact-area1 input,
-.contact-area1
+.contact-aredz- .form-control,
+.contact-aredz- .woocommerce #review_form #respond input[type="text"],
+.woocommerce #review_form #respond .contact-aredz- input[type="text"],
+.contact-aredz- .woocommerce #review_form #respond textarea,
+.woocommerce #review_form #respond .contact-aredz- textarea,
+.contact-aredz- .woocommerce #review_form #respond input[type="email"],
+.woocommerce #review_form #respond .contact-aredz- input[type="email"],
+.contact-aredz- .woocommerce-cart-form .table tr td.actions .coupon .input-text,
+.woocommerce-cart-form .table tr td.actions .coupon .contact-aredz- .input-text,
+.contact-aredz- .woocommerce-cart-form .table tr .quantity input,
+.woocommerce-cart-form .table tr .quantity .contact-aredz- input,
+.contact-aredz-
   .woocommerce
   .woocommerce-checkout.checkout
   form
@@ -67110,9 +67110,9 @@ pre {
   .woocommerce-checkout.checkout
   form
   .form-row
-  .contact-area1
+  .contact-aredz-
   textarea,
-.contact-area1
+.contact-aredz-
   .woocommerce
   .woocommerce-checkout.checkout
   form
@@ -67122,49 +67122,49 @@ pre {
   .woocommerce-checkout.checkout
   form
   .form-row
-  .contact-area1
+  .contact-aredz-
   select,
-.contact-area1 .woocommerce .woocommerce-checkout.checkout form .form-row input,
-.woocommerce .woocommerce-checkout.checkout form .form-row .contact-area1 input,
-.contact-area1 .woocommerce-EditAccountForm.edit-account input[type="text"],
-.woocommerce-EditAccountForm.edit-account .contact-area1 input[type="text"],
-.contact-area1 .woocommerce-EditAccountForm.edit-account input[type="email"],
-.woocommerce-EditAccountForm.edit-account .contact-area1 input[type="email"],
-.contact-area1 .woocommerce-EditAccountForm.edit-account input[type="password"],
-.woocommerce-EditAccountForm.edit-account .contact-area1 input[type="password"],
-.contact-area1 .login input[type="text"],
-.login .contact-area1 input[type="text"],
-.contact-area1 .login input[type="password"],
-.login .contact-area1 input[type="password"],
-.contact-area1
+.contact-aredz- .woocommerce .woocommerce-checkout.checkout form .form-row input,
+.woocommerce .woocommerce-checkout.checkout form .form-row .contact-aredz- input,
+.contact-aredz- .woocommerce-EditAccountForm.edit-account input[type="text"],
+.woocommerce-EditAccountForm.edit-account .contact-aredz- input[type="text"],
+.contact-aredz- .woocommerce-EditAccountForm.edit-account input[type="email"],
+.woocommerce-EditAccountForm.edit-account .contact-aredz- input[type="email"],
+.contact-aredz- .woocommerce-EditAccountForm.edit-account input[type="password"],
+.woocommerce-EditAccountForm.edit-account .contact-aredz- input[type="password"],
+.contact-aredz- .login input[type="text"],
+.login .contact-aredz- input[type="text"],
+.contact-aredz- .login input[type="password"],
+.login .contact-aredz- input[type="password"],
+.contact-aredz-
   .woocommerce-ResetPassword.lost_reset_password
   input[type="text"],
 .woocommerce-ResetPassword.lost_reset_password
-  .contact-area1
+  .contact-aredz-
   input[type="text"],
-.contact-area1 .checkout.woocommerce-checkout input[type="text"],
-.checkout.woocommerce-checkout .contact-area1 input[type="text"],
-.contact-area1 .checkout.woocommerce-checkout input[type="email"],
-.checkout.woocommerce-checkout .contact-area1 input[type="email"],
-.contact-area1 .checkout.woocommerce-checkout input[type="tel"],
-.checkout.woocommerce-checkout .contact-area1 input[type="tel"],
-.contact-area1 .checkout.woocommerce-checkout .select2-choice,
-.checkout.woocommerce-checkout .contact-area1 .select2-choice,
-.contact-area1 .checkout.woocommerce-checkout textarea,
-.checkout.woocommerce-checkout .contact-area1 textarea,
-.contact-area1 .woocommerce form .form-row input.input-text,
-.woocommerce form .form-row .contact-area1 input.input-text,
-.contact-area1 .woocommerce form .form-row .select2-selection,
-.woocommerce form .form-row .contact-area1 .select2-selection,
-.contact-area1 .woocommerce form .form-row .select2-choice,
-.woocommerce form .form-row .contact-area1 .select2-choice {
+.contact-aredz- .checkout.woocommerce-checkout input[type="text"],
+.checkout.woocommerce-checkout .contact-aredz- input[type="text"],
+.contact-aredz- .checkout.woocommerce-checkout input[type="email"],
+.checkout.woocommerce-checkout .contact-aredz- input[type="email"],
+.contact-aredz- .checkout.woocommerce-checkout input[type="tel"],
+.checkout.woocommerce-checkout .contact-aredz- input[type="tel"],
+.contact-aredz- .checkout.woocommerce-checkout .select2-choice,
+.checkout.woocommerce-checkout .contact-aredz- .select2-choice,
+.contact-aredz- .checkout.woocommerce-checkout textarea,
+.checkout.woocommerce-checkout .contact-aredz- textarea,
+.contact-aredz- .woocommerce form .form-row input.input-text,
+.woocommerce form .form-row .contact-aredz- input.input-text,
+.contact-aredz- .woocommerce form .form-row .select2-selection,
+.woocommerce form .form-row .contact-aredz- .select2-selection,
+.contact-aredz- .woocommerce form .form-row .select2-choice,
+.woocommerce form .form-row .contact-aredz- .select2-choice {
   background: transparent;
   border-radius: 10px;
   border: 1px solid #fff;
   color: #fff;
 }
-.contact-area1 .form-control:placeholder,
-.contact-area1
+.contact-aredz- .form-control:placeholder,
+.contact-aredz-
   .woocommerce
   #review_form
   #respond
@@ -67172,11 +67172,11 @@ pre {
 .woocommerce
   #review_form
   #respond
-  .contact-area1
+  .contact-aredz-
   input:placeholder[type="text"],
-.contact-area1 .woocommerce #review_form #respond textarea:placeholder,
-.woocommerce #review_form #respond .contact-area1 textarea:placeholder,
-.contact-area1
+.contact-aredz- .woocommerce #review_form #respond textarea:placeholder,
+.woocommerce #review_form #respond .contact-aredz- textarea:placeholder,
+.contact-aredz-
   .woocommerce
   #review_form
   #respond
@@ -67184,9 +67184,9 @@ pre {
 .woocommerce
   #review_form
   #respond
-  .contact-area1
+  .contact-aredz-
   input:placeholder[type="email"],
-.contact-area1
+.contact-aredz-
   .woocommerce-cart-form
   .table
   tr
@@ -67198,11 +67198,11 @@ pre {
   tr
   td.actions
   .coupon
-  .contact-area1
+  .contact-aredz-
   .input-text:placeholder,
-.contact-area1 .woocommerce-cart-form .table tr .quantity input:placeholder,
-.woocommerce-cart-form .table tr .quantity .contact-area1 input:placeholder,
-.contact-area1
+.contact-aredz- .woocommerce-cart-form .table tr .quantity input:placeholder,
+.woocommerce-cart-form .table tr .quantity .contact-aredz- input:placeholder,
+.contact-aredz-
   .woocommerce
   .woocommerce-checkout.checkout
   form
@@ -67212,9 +67212,9 @@ pre {
   .woocommerce-checkout.checkout
   form
   .form-row
-  .contact-area1
+  .contact-aredz-
   textarea:placeholder,
-.contact-area1
+.contact-aredz-
   .woocommerce
   .woocommerce-checkout.checkout
   form
@@ -67224,9 +67224,9 @@ pre {
   .woocommerce-checkout.checkout
   form
   .form-row
-  .contact-area1
+  .contact-aredz-
   select:placeholder,
-.contact-area1
+.contact-aredz-
   .woocommerce
   .woocommerce-checkout.checkout
   form
@@ -67236,66 +67236,66 @@ pre {
   .woocommerce-checkout.checkout
   form
   .form-row
-  .contact-area1
+  .contact-aredz-
   input:placeholder,
-.contact-area1
+.contact-aredz-
   .woocommerce-EditAccountForm.edit-account
   input:placeholder[type="text"],
 .woocommerce-EditAccountForm.edit-account
-  .contact-area1
+  .contact-aredz-
   input:placeholder[type="text"],
-.contact-area1
+.contact-aredz-
   .woocommerce-EditAccountForm.edit-account
   input:placeholder[type="email"],
 .woocommerce-EditAccountForm.edit-account
-  .contact-area1
+  .contact-aredz-
   input:placeholder[type="email"],
-.contact-area1
+.contact-aredz-
   .woocommerce-EditAccountForm.edit-account
   input:placeholder[type="password"],
 .woocommerce-EditAccountForm.edit-account
-  .contact-area1
+  .contact-aredz-
   input:placeholder[type="password"],
-.contact-area1 .login input:placeholder[type="text"],
-.login .contact-area1 input:placeholder[type="text"],
-.contact-area1 .login input:placeholder[type="password"],
-.login .contact-area1 input:placeholder[type="password"],
-.contact-area1
+.contact-aredz- .login input:placeholder[type="text"],
+.login .contact-aredz- input:placeholder[type="text"],
+.contact-aredz- .login input:placeholder[type="password"],
+.login .contact-aredz- input:placeholder[type="password"],
+.contact-aredz-
   .woocommerce-ResetPassword.lost_reset_password
   input:placeholder[type="text"],
 .woocommerce-ResetPassword.lost_reset_password
-  .contact-area1
+  .contact-aredz-
   input:placeholder[type="text"],
-.contact-area1 .checkout.woocommerce-checkout input:placeholder[type="text"],
-.checkout.woocommerce-checkout .contact-area1 input:placeholder[type="text"],
-.contact-area1 .checkout.woocommerce-checkout input:placeholder[type="email"],
-.checkout.woocommerce-checkout .contact-area1 input:placeholder[type="email"],
-.contact-area1 .checkout.woocommerce-checkout input:placeholder[type="tel"],
-.checkout.woocommerce-checkout .contact-area1 input:placeholder[type="tel"],
-.contact-area1 .checkout.woocommerce-checkout .select2-choice:placeholder,
-.checkout.woocommerce-checkout .contact-area1 .select2-choice:placeholder,
-.contact-area1 .checkout.woocommerce-checkout textarea:placeholder,
-.checkout.woocommerce-checkout .contact-area1 textarea:placeholder,
-.contact-area1 .woocommerce form .form-row input.input-text:placeholder,
-.woocommerce form .form-row .contact-area1 input.input-text:placeholder,
-.contact-area1 .woocommerce form .form-row .select2-selection:placeholder,
-.woocommerce form .form-row .contact-area1 .select2-selection:placeholder,
-.contact-area1 .woocommerce form .form-row .select2-choice:placeholder,
-.woocommerce form .form-row .contact-area1 .select2-choice:placeholder {
+.contact-aredz- .checkout.woocommerce-checkout input:placeholder[type="text"],
+.checkout.woocommerce-checkout .contact-aredz- input:placeholder[type="text"],
+.contact-aredz- .checkout.woocommerce-checkout input:placeholder[type="email"],
+.checkout.woocommerce-checkout .contact-aredz- input:placeholder[type="email"],
+.contact-aredz- .checkout.woocommerce-checkout input:placeholder[type="tel"],
+.checkout.woocommerce-checkout .contact-aredz- input:placeholder[type="tel"],
+.contact-aredz- .checkout.woocommerce-checkout .select2-choice:placeholder,
+.checkout.woocommerce-checkout .contact-aredz- .select2-choice:placeholder,
+.contact-aredz- .checkout.woocommerce-checkout textarea:placeholder,
+.checkout.woocommerce-checkout .contact-aredz- textarea:placeholder,
+.contact-aredz- .woocommerce form .form-row input.input-text:placeholder,
+.woocommerce form .form-row .contact-aredz- input.input-text:placeholder,
+.contact-aredz- .woocommerce form .form-row .select2-selection:placeholder,
+.woocommerce form .form-row .contact-aredz- .select2-selection:placeholder,
+.contact-aredz- .woocommerce form .form-row .select2-choice:placeholder,
+.woocommerce form .form-row .contact-aredz- .select2-choice:placeholder {
   color: #fff;
 }
 @media only screen and (max-width: 1199px) {
-  .contact-area1 {
+  .contact-aredz- {
     padding: 45px 35px;
   }
 }
 @media only screen and (max-width: 991px) {
-  .contact-area1 {
+  .contact-aredz- {
     max-width: 100%;
   }
 }
 @media only screen and (max-width: 575px) {
-  .contact-area1 {
+  .contact-aredz- {
     padding: 30px;
   }
 }
@@ -67606,60 +67606,14 @@ body .working-location img {
   left: 13%;
   top: 20%;
 }
-/* .contact-us2 .map-fixed .map-point .point.point-2 {
+.contact-us2 .map-fixed .map-point .point.point-2 {
   left: 60%;
   top: 15%;
-} */
+}
 .contact-us2 .map-fixed .map-point .point.point-3 {
   left: 50%;
   top: 50%;
 }
-
-.contact-us2 .map-fixed .map-point .point-spain { left: 10%; top: 20%; }
-
-.contact-us2 .map-fixed .map-point .point-china { 
-    left: 60%;
-  top: 15%; 
-}
-
-/* Kuwait Point */
-.contact-us2 .map-fixed .map-point .point-kuwait { left: 57%; top: 34%; } /* Adjust X and Y for Kuwait's position */
-
-
-/* Add this to your existing CSS */
-/* Point Styles */
-.contact-us2 .map-fixed .map-point .point-qatar {
-  /* Adjust the top and left according to your map */
-  top: 50%;
-  left: 40%;
-}
-
-.contact-us2 .map-fixed .map-point .point-uae {
-  left: 61%; top: 39%;
-}
-
-.contact-us2 .map-fixed .map-point .point-saudi {
-  left: 58%; top: 39%;
-
-}
-
-/* .contact-us2 .map-fixed .map-point .point-hongkong {
-  top: 60%;
-  left: 75%;
-} */
-
-.contact-us2 .map-fixed  .map-point .point-egypt {
-  left: 48%; top: 39%;
-
-}
-
-.contact-us2 .map-fixed  .map-point .point-oman {
-  left: 58%; top: 40%;
-
-}
-
- 
-
 
 .contact-us2 .dz-text {
   font-weight: 700;
@@ -67680,7 +67634,7 @@ body .working-location img {
   }
 }
 
-.contact-us2 .contact-area1 {
+.contact-us2 .contact-aredz- {
   margin-bottom: unset;
 }
 
@@ -73132,7 +73086,7 @@ table.wishlist_table {
 .woocommerce-mini-cart__empty-message {
   padding: 20px 20px;
   font-size: 18px;
-  color: #1a1668 !important;
+  color: #1dz-668 !important;
 }
 
 .wc-block-components-price-slider--is-input-inline
@@ -73928,12 +73882,9 @@ table.wishlist_table {
   }
 }
 
+
 .top-bar {
-  background: linear-gradient(
-    to left,
-    #7bbd48,
-    rgba(123, 189, 72, 0)
-  ) !important;
+  background: linear-gradient(to left, #7BBD48, rgba(123, 189, 72, 0)) !important;
   color: #212529;
   padding: 12px 0;
   position: relative;
@@ -75210,7 +75161,7 @@ a {
 .header-transparent .is-fixed .nav > li > a {
   color: #444444;
 }
-.header-transparent .is-fixed .extra-nav .extra-cell .login-link {
+.header-transparent .is-fixed .extra-nav .extra-cell .login-link  {
   color: var(--title);
 }
 .header-transparent .is-fixed .extra-nav .extra-cell .header-right i {
@@ -79119,3 +79070,5 @@ footer.footer-dark .icon-bx-wraper {
   -ms-transition: none;
   transition: none;
 }
+
+

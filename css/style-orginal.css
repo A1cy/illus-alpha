@@ -139,7 +139,7 @@
   --bs-info-rgb: 1, 148, 217;
   --bs-warning-rgb: 231, 150, 0;
   --bs-danger-rgb: 210, 54, 54;
-  --bs-light-rgb: 223, 236, 204
+  --bs-light-rgb: 255, 250, 243;
   --bs-dark-rgb: 68, 68, 68;
   --bs-primary-text: #0f0d37;
   --bs-secondary-text: #6c757d;
@@ -153,7 +153,7 @@
   --bs-secondary-bg-subtle: #f8f9fa;
   --bs-success-bg-subtle: #ddf3de;
   --bs-info-bg-subtle: #cff4fc;
-  --bs-warning-bg-subtle: #dee2ac;
+  --bs-warning-bg-subtle: #DEE2AC;
   --bs-danger-bg-subtle: #fcd3e0;
   --bs-light-bg-subtle: #fcfcfd;
   --bs-dark-bg-subtle: #ced4da;
@@ -203,7 +203,7 @@
   --bs-link-hover-color: #a30a2e;
   --bs-link-hover-color-rgb: 163, 10, 46;
   --bs-code-color: #d63384;
-  --bs-highlight-bg: #dee2ac;
+  --bs-highlight-bg: #DEE2AC;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #d7d7d7;
@@ -221,7 +221,7 @@
   --bs-emphasis-color: #000;
   --bs-form-control-bg: var(--bs-body-bg);
   --bs-form-control-disabled-bg: var(--bs-secondary-bg);
-  --bs-highlight-bg: #dee2ac;
+  --bs-highlight-bg: #DEE2AC;
   --bs-breakpoint-xs: 0;
   --bs-breakpoint-sm: 576px;
   --bs-breakpoint-md: 768px;
@@ -6746,7 +6746,7 @@ fieldset:disabled .woocommerce #place_order,
 
 .btn-light {
   --bs-btn-color: #000;
-  --bs-btn-bg: #ffffff;
+  --bs-btn-bg: #fffaf3;
   --bs-btn-border-color: #fffaf3;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #d9d5cf;
@@ -17812,7 +17812,7 @@ strong,
   background-size: 150px;
   background-repeat: no-repeat;
   backdrop-filter: blur(10px);
-  background: linear-gradient(180deg, #fffffd 0%, #fffaf3 100%);
+  background: linear-gradient(180deg, #feeb9d 0%, #fffaf3 100%);
 }
 .preloader-wrapper-1 img {
   width: 220px;
@@ -49761,7 +49761,7 @@ select {
 
 .about-style1 .about-thumb img {
   width: 100%;
-  /* mask-image: url(../images/bg-media.svg); */
+  mask-image: url(../images/bg-media.svg);
   mask-size: auto 100%;
   mask-repeat: no-repeat;
   height: 100%;
@@ -50034,7 +50034,7 @@ video#video-background {
 }
 .about-box.style-1 .dz-media img {
   width: 100%;
-  /* mask-image: url(../images/bg-media.svg); */
+  mask-image: url(../images/bg-media.svg);
   mask-size: auto 100%;
   mask-repeat: no-repeat;
   height: 100%;
@@ -50639,7 +50639,7 @@ video#video-background {
 }
 
 .about-style4 {
-  background-color: #C7E8B1;
+  background-color: #ffedd4;
   position: relative;
   z-index: 1;
   padding-top: 75px;
@@ -50676,7 +50676,7 @@ video#video-background {
 .about-style4 .about-content {
   border-radius: 30px;
   background: #fff;
-  /* box-shadow: 0px 15px 50px 0px rgba(94, 141, 118, 0.1); */
+  box-shadow: 0px 15px 50px 0px rgba(94, 141, 118, 0.1);
   padding: 40px;
 }
 .about-style4 .about-content .para-text {
@@ -52945,7 +52945,7 @@ video#video-background {
 .shop-section .left-box {
   padding-right: 100px;
   padding-left: 100px;
-  background-color: #C7E8B1;
+  background-color: #feeb9d;
 }
 @media only screen and (max-width: 991px) {
   .shop-section .left-box {
@@ -52955,7 +52955,7 @@ video#video-background {
 }
 .shop-section .left-box:after {
   content: "";
-  /* background-image: url('data:image/svg+xml,<svg width="413" height="44" viewBox="0 0 413 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M37.4829 37.8579L0 0.375V0H413V0.375L375.517 37.8579C367.707 45.6684 355.043 45.6684 347.233 37.8579L323.892 14.5171C316.082 6.70665 303.418 6.70665 295.608 14.5171L272.267 37.8579C264.457 45.6684 251.793 45.6684 243.983 37.8579L220.642 14.5171C212.832 6.70665 200.168 6.70665 192.358 14.5171L169.017 37.8579C161.207 45.6684 148.543 45.6684 140.733 37.8579L117.392 14.5171C109.582 6.70665 96.9184 6.70665 89.1079 14.5171L65.7671 37.8579C57.9566 45.6684 45.2934 45.6684 37.4829 37.8579Z" fill="%23FFFAF3"/></svg>'); */
+  background-image: url('data:image/svg+xml,<svg width="413" height="44" viewBox="0 0 413 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M37.4829 37.8579L0 0.375V0H413V0.375L375.517 37.8579C367.707 45.6684 355.043 45.6684 347.233 37.8579L323.892 14.5171C316.082 6.70665 303.418 6.70665 295.608 14.5171L272.267 37.8579C264.457 45.6684 251.793 45.6684 243.983 37.8579L220.642 14.5171C212.832 6.70665 200.168 6.70665 192.358 14.5171L169.017 37.8579C161.207 45.6684 148.543 45.6684 140.733 37.8579L117.392 14.5171C109.582 6.70665 96.9184 6.70665 89.1079 14.5171L65.7671 37.8579C57.9566 45.6684 45.2934 45.6684 37.4829 37.8579Z" fill="%23FFFAF3"/></svg>');
   position: absolute;
   width: 30.77%;
   height: 50px;
@@ -67606,60 +67606,14 @@ body .working-location img {
   left: 13%;
   top: 20%;
 }
-/* .contact-us2 .map-fixed .map-point .point.point-2 {
+.contact-us2 .map-fixed .map-point .point.point-2 {
   left: 60%;
   top: 15%;
-} */
+}
 .contact-us2 .map-fixed .map-point .point.point-3 {
   left: 50%;
   top: 50%;
 }
-
-.contact-us2 .map-fixed .map-point .point-spain { left: 10%; top: 20%; }
-
-.contact-us2 .map-fixed .map-point .point-china { 
-    left: 60%;
-  top: 15%; 
-}
-
-/* Kuwait Point */
-.contact-us2 .map-fixed .map-point .point-kuwait { left: 57%; top: 34%; } /* Adjust X and Y for Kuwait's position */
-
-
-/* Add this to your existing CSS */
-/* Point Styles */
-.contact-us2 .map-fixed .map-point .point-qatar {
-  /* Adjust the top and left according to your map */
-  top: 50%;
-  left: 40%;
-}
-
-.contact-us2 .map-fixed .map-point .point-uae {
-  left: 61%; top: 39%;
-}
-
-.contact-us2 .map-fixed .map-point .point-saudi {
-  left: 58%; top: 39%;
-
-}
-
-/* .contact-us2 .map-fixed .map-point .point-hongkong {
-  top: 60%;
-  left: 75%;
-} */
-
-.contact-us2 .map-fixed  .map-point .point-egypt {
-  left: 48%; top: 39%;
-
-}
-
-.contact-us2 .map-fixed  .map-point .point-oman {
-  left: 58%; top: 40%;
-
-}
-
- 
-
 
 .contact-us2 .dz-text {
   font-weight: 700;
@@ -73928,12 +73882,9 @@ table.wishlist_table {
   }
 }
 
+
 .top-bar {
-  background: linear-gradient(
-    to left,
-    #7bbd48,
-    rgba(123, 189, 72, 0)
-  ) !important;
+  background: linear-gradient(to left, #7BBD48, rgba(123, 189, 72, 0)) !important;
   color: #212529;
   padding: 12px 0;
   position: relative;
@@ -75210,7 +75161,7 @@ a {
 .header-transparent .is-fixed .nav > li > a {
   color: #444444;
 }
-.header-transparent .is-fixed .extra-nav .extra-cell .login-link {
+.header-transparent .is-fixed .extra-nav .extra-cell .login-link  {
   color: var(--title);
 }
 .header-transparent .is-fixed .extra-nav .extra-cell .header-right i {
@@ -79119,3 +79070,5 @@ footer.footer-dark .icon-bx-wraper {
   -ms-transition: none;
   transition: none;
 }
+
+
