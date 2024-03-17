@@ -46698,7 +46698,7 @@ select {
   left: 0;
   width: 103%;
   height: 100%;
-  background-image: url(../images/collection.png);
+  /* background-image: url(../images/collection.png); */
   background-size: cover;
   z-index: -2;
   background-position: left;
@@ -46781,7 +46781,7 @@ select {
   animation: move1 5s infinite linear;
 }
 .collection-bx .collection3 img {
-  border-radius: 0px 0px 110px 0px;
+  /* border-radius: 0px 0px 110px 0px; */
 }
 .collection-bx .collection4 {
   bottom: 10%;
@@ -50729,11 +50729,11 @@ video#video-background {
   left: -14%;
   width: 68%;
   height: 68%;
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     #fffaf3 1.69%,
     rgba(255, 250, 243, 0) 103.98%
-  );
+  ); */
   border-radius: 50% 50% 0px 0px;
   z-index: -2;
 }
@@ -79119,3 +79119,49 @@ footer.footer-dark .icon-bx-wraper {
   -ms-transition: none;
   transition: none;
 }
+
+
+
+.country-list  { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+    align-items: center; 
+    --item: 4; 
+    --gap: 4rem; 
+    --itemWidth: calc(100% / var(--item) - (var(--gap) * (var(--item) - 1) / var(--item)));
+} 
+
+
+.country-list > li  { 
+    
+    margin-right: 10px; 
+    margin-bottom: 2rem;
+} 
+
+.country-list > li:nth-child(4n)  { 
+    margin-right: unset;
+} 
+
+.img-box { 
+    overflow: hidden; 
+    position: relative;
+} 
+
+.img-box  { 
+    width: 100%; 
+    height: 1.7rem;
+} 
+
+ 
+ 
+.img-flag { 
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+} 
+
+.footer .social .social-item .country-list img { 
+    object-fit: contain;
+} 
