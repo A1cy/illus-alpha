@@ -73923,8 +73923,12 @@ table.wishlist_table {
   }
 }
 @media only screen and (max-width: 575px) {
-  .logo-header img {
-    max-width: 150px;
+  .logo-header .logo-default {
+    display: none !important; /* Hide the default logo */
+  }
+  .logo-header .logo-small-screen {
+    display: block !important; /* Show the small screen logo */
+    max-width: 75px; /* Adjust if needed */
   }
 }
 
@@ -74058,6 +74062,7 @@ table.wishlist_table {
   align-items: center;
   flex-direction: inherit;
   margin-right: -10px;
+  justify-content: center;
 }
 @media only screen and (max-width: 991px) {
   .site-header .extra-nav .extra-cell > * {
